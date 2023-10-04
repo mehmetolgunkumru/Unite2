@@ -8,14 +8,42 @@
 
     <Button
         android:id="@+id/btnUyg2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="34dp"
         android:onClick="uyg2Goster"
         android:text="2.Uygulama"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintBottom_toTopOf="@+id/btnUyg4"
+        app:layout_constraintEnd_toEndOf="@+id/btnUyg4"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg4"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnUyg5"
+        android:layout_width="361dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="978dp"
+        android:onClick="uyg5Goster"
+        android:text="5.Uygulama"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnUyg4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="39dp"
+        android:onClick="Uyg4Goster"
+        android:text="4.Uygulama"
+        app:layout_constraintBottom_toTopOf="@+id/btnUyg5"
+        app:layout_constraintEnd_toEndOf="@+id/btnUyg5"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg5"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg2"
+        tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>
