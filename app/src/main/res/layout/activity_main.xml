@@ -6,44 +6,108 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="398dp"
+        android:layout_height="37dp"
+        android:text="2 Unite Uygulamalar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp" />
+
     <Button
-        android:id="@+id/btnUyg2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="31dp"
-        android:layout_marginBottom="34dp"
-        android:onClick="uyg2Goster"
-        android:text="2.Uygulama"
-        app:layout_constraintBottom_toTopOf="@+id/btnUyg4"
-        app:layout_constraintEnd_toEndOf="@+id/btnUyg4"
-        app:layout_constraintStart_toStartOf="@+id/btnUyg4"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextContrastCheck,TextContrastCheck" />
+        android:id="@+id/btnUyg8"
+        android:layout_width="203dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:onClick="uyg9Goster"
+        android:text="9.Uygulama"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp" />
 
     <Button
         android:id="@+id/btnUyg5"
-        android:layout_width="361dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="95dp"
-        android:layout_marginBottom="978dp"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
         android:onClick="uyg5Goster"
         android:text="5.Uygulama"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/btnUyg4"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="383dp"
+        android:layout_height="37dp"
+        android:text="sıra sizde"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg3"
+        tools:layout_editor_absoluteX="14dp" />
+
+    <Button
+        android:id="@+id/btnUyg"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:onClick="uyg8Goster"
+        android:text="8.Uygulama"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <Button
+        android:id="@+id/btnss68"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:onClick="ss68Goster"
+        android:text="Sıra Sizde 68"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btnUyg6"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:onClick="uyg6Goster"
+        android:text="6.Uygulama"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg5"
+        tools:layout_editor_absoluteX="9dp" />
 
     <Button
         android:id="@+id/btnUyg4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="39dp"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
         android:onClick="Uyg4Goster"
         android:text="4.Uygulama"
-        app:layout_constraintBottom_toTopOf="@+id/btnUyg5"
-        app:layout_constraintEnd_toEndOf="@+id/btnUyg5"
-        app:layout_constraintStart_toStartOf="@+id/btnUyg5"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintTop_toBottomOf="@+id/btnUyg2"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <Button
+        android:id="@+id/btnUyg3"
+        android:layout_width="192dp"
+        android:layout_height="42dp"
+        android:onClick="uyg10Goster"
+        android:text="10.Uygulama"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg8"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="14dp" />
+
+    <Button
+        android:id="@+id/btnUyg2"
+        android:layout_width="194dp"
+        android:layout_height="36dp"
+        android:onClick="uyg2Goster"
+        android:text="2.Uygulama"
+        app:layout_constraintTop_toBottomOf="@+id/TextView"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="6dp" />
 
 </android.support.constraint.ConstraintLayout>
